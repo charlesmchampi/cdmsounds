@@ -1,0 +1,248 @@
+#N canvas 676 0 681 668 12;
+#X obj 44 26 cnv 15 500 500 empty empty Ambientes 20 12 0 14 #9c00ff
+#faff00 0;
+#X obj 592 29 cnv 15 700 600 empty empty Personajes 20 12 0 14 #ff8300
+#000000 0;
+#X obj 84 70 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#N canvas 26 26 450 300 biblioteca 0;
+#X obj 37 37 inlet;
+#X obj 229 170 outlet~;
+#X restore 84 90 pd biblioteca;
+#X obj 613 89 cnv 15 200 150 empty empty Incognita 20 12 0 14 #ffffff
+#404040 0;
+#X obj 840 89 cnv 15 200 150 empty empty Bucle 20 12 0 14 #ffffff #404040
+0;
+#X obj 613 264 cnv 15 200 150 empty empty Ninota 20 12 0 14 #ffffff
+#404040 0;
+#X obj 842 264 cnv 15 200 150 empty empty Koan 20 12 0 14 #ffffff #404040
+0;
+#X obj 613 439 cnv 15 200 150 empty empty Trenzas 20 12 0 14 #ffffff
+#404040 0;
+#X obj 842 439 cnv 15 200 150 empty empty Frutilla 20 12 0 14 #ffffff
+#404040 0;
+#X obj 626 144 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 116 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 201 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 173 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X text 98 573 25 locaciones;
+#X text 1246 556 4 villanos 3 adultos? 9 niños;
+#X obj 1070 89 cnv 15 200 150 empty empty Mala_espina 20 12 0 14 #ffffff
+#404040 0;
+#X obj 1072 264 cnv 15 200 150 empty empty Ruedas 20 12 0 14 #ffffff
+#404040 0;
+#X obj 1072 439 cnv 15 200 150 empty empty Ruidos 20 12 0 14 #ffffff
+#404040 0;
+#X obj 856 144 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 116 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 201 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 173 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 144 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 116 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 201 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 173 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 324 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 296 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 381 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 353 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 324 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 296 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 381 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 353 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 324 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 296 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 381 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 353 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 497 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 469 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 554 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 626 526 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 497 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 469 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 554 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 856 526 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 497 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 469 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 554 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1086 526 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#N canvas 26 26 450 300 pasos_incognita 0;
+#X obj 37 37 inlet;
+#X restore 645 116 pd pasos_incognita;
+#N canvas 26 26 450 300 ojos_incognita 0;
+#X obj 37 37 inlet;
+#X restore 645 144 pd ojos_incognita;
+#N canvas 26 26 450 300 brazos_incognita 0;
+#X obj 37 37 inlet;
+#X restore 645 173 pd brazos_incognita;
+#N canvas 26 26 450 300 mov_incognita 0;
+#X obj 37 37 inlet;
+#X restore 645 201 pd mov_incognita;
+#N canvas 26 26 450 300 pasos_bucle 0;
+#X obj 37 37 inlet;
+#X restore 875 116 pd pasos_bucle;
+#N canvas 26 26 450 300 ojos_bucle 0;
+#X obj 37 37 inlet;
+#X restore 875 144 pd ojos_bucle;
+#N canvas 26 26 450 300 brazos_bucle 0;
+#X obj 37 37 inlet;
+#X restore 875 173 pd brazos_bucle;
+#N canvas 26 26 450 300 mov_bucle 0;
+#X obj 37 37 inlet;
+#X restore 875 201 pd mov_bucle;
+#N canvas 26 26 450 300 pasos_me 0;
+#X obj 37 37 inlet;
+#X restore 1105 116 pd pasos_me;
+#N canvas 26 26 450 300 ojos_me 0;
+#X obj 37 37 inlet;
+#X restore 1105 144 pd ojos_me;
+#N canvas 26 26 450 300 brazos_me 0;
+#X obj 37 37 inlet;
+#X restore 1105 173 pd brazos_me;
+#N canvas 26 26 450 300 mov_me 0;
+#X obj 37 37 inlet;
+#X restore 1105 201 pd mov_me;
+#N canvas 26 26 450 300 pasos_ninota 0;
+#X obj 37 37 inlet;
+#X restore 645 296 pd pasos_ninota;
+#N canvas 26 26 450 300 ojos_ninota 0;
+#X obj 37 37 inlet;
+#X restore 645 324 pd ojos_ninota;
+#N canvas 26 26 450 300 brazos_ninota 0;
+#X obj 37 37 inlet;
+#X restore 645 353 pd brazos_ninota;
+#N canvas 26 26 450 300 mov_ninota 0;
+#X obj 37 37 inlet;
+#X restore 645 381 pd mov_ninota;
+#N canvas 26 26 450 300 pasos_trenzas 0;
+#X obj 37 37 inlet;
+#X restore 645 469 pd pasos_trenzas;
+#N canvas 26 26 450 300 ojos_trenzas 0;
+#X obj 37 37 inlet;
+#X restore 645 497 pd ojos_trenzas;
+#N canvas 26 26 450 300 brazos_trenzas 0;
+#X obj 37 37 inlet;
+#X restore 645 526 pd brazos_trenzas;
+#N canvas 26 26 450 300 mov_trenzas 0;
+#X obj 37 37 inlet;
+#X restore 645 554 pd mov_trenzas;
+#N canvas 26 26 450 300 pasos_koan 0;
+#X obj 37 37 inlet;
+#X restore 875 296 pd pasos_koan;
+#N canvas 26 26 450 300 ojos_koan 0;
+#X obj 37 37 inlet;
+#X restore 875 324 pd ojos_koan;
+#N canvas 26 26 450 300 brazos_koan 0;
+#X obj 37 37 inlet;
+#X restore 875 353 pd brazos_koan;
+#N canvas 26 26 450 300 mov_koan 0;
+#X obj 37 37 inlet;
+#X restore 875 381 pd mov_koan;
+#N canvas 26 26 450 300 pasos_frutilla 0;
+#X obj 37 37 inlet;
+#X restore 875 469 pd pasos_frutilla;
+#N canvas 26 26 450 300 ojos_frutilla 0;
+#X obj 37 37 inlet;
+#X restore 875 497 pd ojos_frutilla;
+#N canvas 26 26 450 300 brazos_frutilla 0;
+#X obj 37 37 inlet;
+#X restore 875 526 pd brazos_frutilla;
+#N canvas 26 26 450 300 mov_frutilla 0;
+#X obj 37 37 inlet;
+#X restore 875 554 pd mov_frutilla;
+#N canvas 26 26 450 300 pasos_ruedas 0;
+#X obj 37 37 inlet;
+#X restore 1105 296 pd pasos_ruedas;
+#N canvas 26 26 450 300 ojos_ruedas 0;
+#X obj 37 37 inlet;
+#X restore 1105 324 pd ojos_ruedas;
+#N canvas 26 26 450 300 brazos_ruedas 0;
+#X obj 37 37 inlet;
+#X restore 1105 353 pd brazos_ruedas;
+#N canvas 26 26 450 300 mov_ruedas 0;
+#X obj 37 37 inlet;
+#X restore 1105 381 pd mov_ruedas;
+#N canvas 26 26 450 300 pasos_ruidos 0;
+#X obj 37 37 inlet;
+#X restore 1105 469 pd pasos_ruidos;
+#N canvas 26 26 450 300 ojos_ruidos 0;
+#X obj 37 37 inlet;
+#X restore 1105 497 pd ojos_ruidos;
+#N canvas 26 26 450 300 brazos_ruidos 0;
+#X obj 37 37 inlet;
+#X restore 1105 526 pd brazos_ruidos;
+#N canvas 26 26 450 300 mov_ruidos 0;
+#X obj 37 37 inlet;
+#X restore 1105 554 pd mov_ruidos;
+#X connect 2 0 3 0;
+#X connect 10 0 52 0;
+#X connect 11 0 51 0;
+#X connect 12 0 54 0;
+#X connect 13 0 53 0;
+#X connect 19 0 56 0;
+#X connect 20 0 55 0;
+#X connect 21 0 58 0;
+#X connect 22 0 57 0;
+#X connect 23 0 60 0;
+#X connect 24 0 59 0;
+#X connect 25 0 62 0;
+#X connect 26 0 61 0;
+#X connect 27 0 64 0;
+#X connect 28 0 63 0;
+#X connect 29 0 66 0;
+#X connect 30 0 65 0;
+#X connect 31 0 72 0;
+#X connect 32 0 71 0;
+#X connect 33 0 74 0;
+#X connect 34 0 73 0;
+#X connect 35 0 80 0;
+#X connect 36 0 79 0;
+#X connect 37 0 82 0;
+#X connect 38 0 81 0;
+#X connect 39 0 68 0;
+#X connect 40 0 67 0;
+#X connect 41 0 70 0;
+#X connect 42 0 69 0;
+#X connect 43 0 76 0;
+#X connect 44 0 75 0;
+#X connect 45 0 78 0;
+#X connect 46 0 77 0;
+#X connect 47 0 84 0;
+#X connect 48 0 83 0;
+#X connect 49 0 86 0;
+#X connect 50 0 85 0;
