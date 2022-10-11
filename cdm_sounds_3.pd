@@ -1,0 +1,17 @@
+#N canvas 156 156 450 300 12;
+#X text 164 62 work in progress...;
+#X obj 110 132 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 110 156 osc~;
+#X obj 110 180 *~;
+#X obj 110 204 dac~;
+#X obj 174 192 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 171 124 hsl 128 15 0 40000 0 0 empty empty empty -2 -8 0 10
+#fcfcfc #000000 #000000 0 1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
+#X connect 5 0 3 1;
+#X connect 6 0 2 1;
